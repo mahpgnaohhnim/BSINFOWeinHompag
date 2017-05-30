@@ -1,1 +1,4 @@
-var header = new Header();
+content = new Content();
+initHeader();
+initFooter();
+configButtons();
