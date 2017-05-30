@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(){
   loadConf();
+  init();
 });
 
 function loadJS(filename){
@@ -12,4 +13,8 @@ function loadJS(filename){
 
 function loadConf(){
   loadJS('header');
+}
+
+function init(){
+  var header = new Header();
 }
