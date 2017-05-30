@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(){
   loadConf();
-  init();
 });
 
 function loadJS(filename){
