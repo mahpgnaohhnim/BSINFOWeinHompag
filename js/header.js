@@ -1,11 +1,7 @@
-class header{
+class Header{
   constructor(){
-    let pub = document.getElementsByTagName('header')[0];
-    const logo = "<div id='logo'></div>"
-    header.innerHTML="<h2>HEADER</h2>";
+    this = document.getElementsByTagName('header')[0];
+    const logo = "<div id='logo'>Test</div>"
+    header.innerHTML = logo;
   }
 }
-//var header = function(){
-
-
-//}

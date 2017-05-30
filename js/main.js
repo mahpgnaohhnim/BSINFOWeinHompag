@@ -13,8 +13,5 @@ function loadJS(filename){
 
 function loadConf(){
   loadJS('header');
-}
-
-function init(){
-  var header = new Header();
+  loadJS('init');
 }
