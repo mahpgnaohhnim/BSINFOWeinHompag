@@ -1,4 +1,5 @@
 content = new Content();
-initHeader();
-initFooter();
-configButtons();
+content.onContentChange('Home');
+//initHeader();
+// initFooter();
+configHeaderButtons();

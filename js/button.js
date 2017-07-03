@@ -1,12 +1,17 @@
-function configButtons(){
-    var buttons = document.getElementsByTagName('button');
+function configHeaderButtons(){
+    var buttons = document.getElementsByClassName('nav-button');
+    var logo = document.getElementsByClassName('header-logo')[0].addEventListener('click', onLogoClicked);
     for(var button of buttons){
-      button.addEventListener('click', onClicked);
+      button.addEventListener('click', onBtnClicked);
     }
 
-    function onClicked(e){
+    function onBtnClicked(e){
       var pub = e.currentTarget;
       var text = pub.innerText;
       content.onContentChange(text);
+    }
+
+    function onLogoClicked(){
+        content.onContentChange('Home');
     }
 }
