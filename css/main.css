@@ -64,7 +64,9 @@ header #nav {
     cursor: pointer;
     border: none;
     border-radius: 50%;
-    text-indent: -3px
+    text-indent: -3px;
+    font-family: 'myfont';
+    font-size: 2pc;
 }
 
 .nav-button:focus {
@@ -108,6 +110,7 @@ footer {
     color: white;
     text-align: center;
     padding-top: 50px;
+    font-size: 2pc;
 }
 
 #content {
