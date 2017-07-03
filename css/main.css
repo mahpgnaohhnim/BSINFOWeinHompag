@@ -1,6 +1,8 @@
 html, body, #wrapper {
     margin: 0;
     width: 100%;
+    font-family: 'myfont';
+    color:#404a42;
 }
 
 #wrapper {
@@ -10,6 +12,22 @@ html, body, #wrapper {
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+h1{
+    font-size: 3pc;
+}
+
+h2{
+    font-size: 2.5pc;
+}
+
+h3{
+    font-size: 2pc
+}
+
+p{
+    font-size: 2pc;
 }
 
 body {

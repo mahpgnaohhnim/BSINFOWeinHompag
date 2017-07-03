@@ -15,7 +15,7 @@ class Content{
     var xmlDoc = request.responseXML;
     var textContent = xmlDoc.getElementsByTagName('content')[0].textContent;
     var title = xmlDoc.getElementsByTagName('title')[0].textContent
-    var htmlDomObj = "<h2>"+title+"</h2>";
+    var htmlDomObj = "<h1>"+title+"</h1>";
     htmlDomObj += "<p>"+ textContent +"</p>"
     return htmlDomObj;
   }
