@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+    <title>
+        Weinliste
+    </title>
+    <content>
+        <text>
+            <![CDATA[
+            <p>In der folgenden Liste finden Sie all unseren edlen Spezial Weine.<br>
+            Alle Flaschen sind 750ml.</p>
+            ]]>
+        </text>
+        <wine>
+            <name>Sapphire Spinel</name>
+            <price>57,00€</price>
+        </wine>
+
+        <wine>
+            <name>Ancona Ruby</name>
+            <price>66,50€</price>
+        </wine>
+
+        <wine>
+            <name>Kristal</name>
+            <price>69,80€</price>
+        </wine>
+
+        <wine>
+            <name>African Emerald</name>
+            <price>65,65€</price>
+        </wine>
+
+        <wine>
+            <name>Abalone Pearl</name>
+            <price>66,00</price>
+        </wine>
+
+        <wine>
+            <name>Zabeltitzen Diamond</name>
+            <price>76,00</price>
+        </wine>
+
+
+        <wine>
+            <name>White Opal</name>
+            <price>48,00€</price>
+        </wine>
+
+         <wine>
+             <name>Imperial Jade</name>
+             <price>89,00€</price>
+         </wine>
+    </content>
+</page>

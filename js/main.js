@@ -12,8 +12,6 @@ function loadJS(filename){
 
 function loadConf(){
   loadJS('Content');
-  //loadJS('header');
-  //loadJS('footer');
   loadJS('button');
   loadJS('init');
 }

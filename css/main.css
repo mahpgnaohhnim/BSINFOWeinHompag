@@ -5,12 +5,26 @@ html, body, #wrapper {
     color:#404a42;
 }
 
+table {
+    font-family: Arial;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+    border-spacing: 0;
+}
+
+th, td{
+    padding: 5px;
+}
+
 #wrapper {
     height: 100%;
     background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
-    background-size: 215%;
-    background-position: -145px -335px;
+    background-size: cover;
+    /background-position: -145px -335px;
+    background-attachment: fixed;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -65,9 +79,12 @@ header #nav {
     cursor: pointer;
     border: none;
     border-radius: 50%;
-    text-indent: -3px;
     font-family: 'myfont';
     font-size: 2pc;
+}
+
+.nav-button.btnIndent{
+    text-indent: -7px;
 }
 
 .nav-button:focus {
@@ -123,7 +140,7 @@ footer {
     background-color: rgba(255, 255, 255, 0.7);
     box-shadow: 5px 8px 9px black;
     text-align: center;
-    padding: 20px 0 20px 0;
+    padding: 20px 0 50px 0;
 }
 
 .noselect {
