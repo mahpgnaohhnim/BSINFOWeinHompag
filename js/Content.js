@@ -26,7 +26,7 @@ class Content{
         case "Gallerie":
             htmlDomObj += "<p>"+ textContent +"</p>"
             console.log(Gallery);
-            setTimeout(function(){gallery.init(xmlDoc)}, 1000);
+            setTimeout(function(){gallery.init(xmlDoc)}, 500);
             break;
         default:
             htmlDomObj += "<p>"+ textContent +"</p>"

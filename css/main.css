@@ -90,11 +90,11 @@ header #nav {
     text-indent: -7px;
 }
 
-.nav-button:focus {
+button:focus {
     outline: none;
 }
 
-.nav-button::-moz-focus-inner {
+button::-moz-focus-inner {
     border: 0;
 }
 
@@ -167,11 +167,33 @@ footer {
     display: block;
     margin: auto;
     width: 90%;
-    min-height:20%;
-    height:auto;
+    height:400px;
 }
 
 #gallery #gallery-img{
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#gallery button{
+    position: absolute;
+    top:0;
+    height:100%;
+    width: 40%;
+    border: none;
+    background-color: rgba(0,0,0,0);
+    opacity: 0;
+}
+
+#gallery button:hover{
+    opacity: 1;
+    background-color: rgba(0,0,0,0.1)
+}
+
+#gallery button#gallery-nxt{
+    right:0;
+}
+
+#gallery button#gallery-prv{
+left:0;
 }
