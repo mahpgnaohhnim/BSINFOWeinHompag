@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-  <title>
-    Gallery
-  </title>
-  <content>
-    GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY
-    GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY GALLERY
-  </content>
+    <title>
+        Gallery
+    </title>
+    <content>
+        <![CDATA[
+    <div id="gallery">
+        <img id="gallery-img" src=""></img>
+        <button id="gallery-prv">&#10094;</button>
+        <button id="gallery-nxt">&#10095;</button>
+    </div>
+    ]]>
+    </content>
+    <sources>gallery1.jpg</sources>
+    <sources>gallery2.jpg</sources>
+    <sources>gallery3.jpg</sources>
+    <sources>gallery4.jpg</sources>
 </page>

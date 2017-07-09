@@ -13,5 +13,6 @@ function loadJS(filename){
 function loadConf(){
   loadJS('Content');
   loadJS('button');
+  loadJS('Gallery');
   loadJS('init');
 }

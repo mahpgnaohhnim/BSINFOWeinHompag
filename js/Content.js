@@ -17,17 +17,27 @@ class Content{
     var textContent = xmlDoc.getElementsByTagName('content')[0].textContent;
     var title = xmlDoc.getElementsByTagName('title')[0].textContent
     var htmlDomObj = "<h1>"+title+"</h1>";
-    if(name == "Weinliste"){
-        htmlDomObj += this.getWineListTable(xmlDoc);
+
+    switch (name) {
+        case "Weinliste":
+            htmlDomObj += this.getWineListTable(xmlDoc);
+            break;
+
+        case "Gallerie":
+            htmlDomObj += "<p>"+ textContent +"</p>"
+            console.log(Gallery);
+            setTimeout(function(){gallery.init(xmlDoc)}, 1000);
+            break;
+        default:
+            htmlDomObj += "<p>"+ textContent +"</p>"
+            break;
     }
-    else {
-        htmlDomObj += "<p>"+ textContent +"</p>"
-    }
+
     return htmlDomObj;
   }
 
   getWineListTable(xmlDoc){
-      var DOMObj =""
+      var DOMObj ="";
       var text = xmlDoc.getElementsByTagName('text')[0].textContent;
       DOMObj += text;
 
