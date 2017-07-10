@@ -37,6 +37,7 @@ class Gallery{
     }
 
     setImg(count){
+        //this.currentImg.classList
         this.currentImg.src = "img/"+this.imgArr[count].textContent;
     }
 
